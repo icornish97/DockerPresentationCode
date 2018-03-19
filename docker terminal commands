@@ -1,0 +1,10 @@
+Download the scipy image
+$ docker run -it --rm -p 8888:8888 jupyter/scipy-notebook
+
+This should give you a link at the end of the download, paste that into your browser
+Once you have done that press ctrl + c twice in the terminal and then enter the following: 
+
+$ jupyter notebook --ip 0.0.0.0 --no-browser
+
+Access Jupyter Notebook in browser
+http://127.0.0.1:8888
